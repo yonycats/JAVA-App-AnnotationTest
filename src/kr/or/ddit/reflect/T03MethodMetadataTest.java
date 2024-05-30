@@ -17,7 +17,7 @@ public class T03MethodMetadataTest {
 			System.out.println("메서드명 : " + m.getName());
 			System.out.println("메서드 리턴타입 : " + m.getReturnType());
 		
-			// 해당 메서드의 접근제어가 정보 가져오기
+			// 해당 메서드의 접근제어자 정보 가져오기
 			int modflag  = m.getModifiers();
 			System.out.println("메서드 접근제어자 : " + Modifier.toString(modflag));
 		

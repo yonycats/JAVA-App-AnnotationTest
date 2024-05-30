@@ -20,7 +20,8 @@ public class T01ClassObjectCreationTest {
 	
 	public static void main(String[] args) throws ClassNotFoundException {
 		
-		// Class 객체 (클래스 정보를 담고 있는 객체) 생성하기
+		// * Class 객체 (클래스 정보를 담고 있는 객체) 생성하기 *
+		
 		// 첫번째 방법 : Class.forName() 메서드 이용하기
 		Class<?> klass = Class.forName("kr.or.ddit.reflect.T01ClassObjectCreationTest");
 		

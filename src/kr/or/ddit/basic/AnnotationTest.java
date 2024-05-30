@@ -9,7 +9,7 @@ public class AnnotationTest {
 		System.out.println("static 변수값 : " + PrintAnnotation.id);
 		
 		// reflection API 이용한 메서드 정보 접근하기
-		// 선언된 메서드 목록 가져오기
+		// 클래스에 선언된 모든 메서드 정보 가져오기
 		Method[] methodArr = Service.class.getDeclaredMethods();
 		
 		for (Method m : methodArr) {

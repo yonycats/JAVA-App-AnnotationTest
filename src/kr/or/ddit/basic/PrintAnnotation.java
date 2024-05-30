@@ -9,7 +9,7 @@ import java.lang.annotation.Target;
  	Annotation에 대하여
  	
  	프로그램 소스 코드 안에 다른 프로그램을 위한 정보를 미리 약속된 형식으로 포함시킨 것 (JDK 1.5부터 지원함)
- 	주석처험 프로그램에 영향을 미치지 않으면서, 다른 프로그램에 유용한 정보를 제공한다.
+ 	주석처럼 프로그램에 영향을 미치지 않으면서, 다른 프로그램에 유용한 정보를 제공한다.
  	
  	종류 : 1. 표준 어노테이션
  		 2. 메타 어노테이션 (어노테이션을 위한 어노테이션, 즉 어노테이션을 정의할 때 사용하는 어노테이션)
@@ -35,6 +35,6 @@ import java.lang.annotation.Target;
 public @interface PrintAnnotation {
 	int id = 100;	// 상수 선언 가능
 	String value() default "-";	// 기본값을 -로 지정
-	int count() default 20;// 기본값을 20으로 지정
+	int count() default 20; // 기본값을 20으로 지정
 	
 }
